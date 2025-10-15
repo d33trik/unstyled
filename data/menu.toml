@@ -1,0 +1,19 @@
+[[entries]]
+title = "Info"
+
+[[entries.entries]]
+title = "A (nearly) no-CSS, fast, minimalist <a target='_blank' href='https://gohugo.io'>Hugo</a> theme inspired by <a target='_blank' href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+
+[[entries.entries]]
+title = "GitHub"
+url = "https://github.com/d33trik/unstyled"
+newTab = true
+
+[[entries]]
+title = "Posts"
+
+[entries.post_list]
+limit = 5
+showMore = true
+showMoreUrl = "posts"
+showMoreText = "See archive..."

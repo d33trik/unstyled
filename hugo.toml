@@ -1,3 +1,8 @@
 [module.hugoVersion]
 extended = true
 min = "0.41.0"
+
+[params.themeConfig]
+backHomeText = "/home"
+showFooter = true
+footerCopyright = ""

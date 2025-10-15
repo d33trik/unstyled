@@ -1,0 +1,10 @@
+{{ if site.Params.themeConfig.showFooter }}
+	<footer class="site-footer">
+		<p>
+			&copy;
+			{{ now.Format "2006" }}
+			{{ site.Params.themeConfig.footerCopyright }} | Made with
+			<a target="_blank" href="https://github.com/d33trik/unstyled">unstyled</a>
+		</p>
+	</footer>
+{{ end }}

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ $.Site.LanguageCode }}">
+	{{- partial "head.html" . -}}
+	<body>
+		<main aria-label="Content">
+			<div>
+				{{- partial "header.html" . -}}
+				{{- block "main" . }}{{- end }}
+			</div>
+			{{ partial "footer.html" . }}
+		</main>
+		{{ partial "custom_js.html" . }}
+	</body>
+</html>

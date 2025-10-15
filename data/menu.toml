@@ -10,6 +10,21 @@ url = "https://github.com/d33trik/unstyled"
 newTab = true
 
 [[entries]]
+title = "Examples"
+
+[[entries.entries]]
+title = "Table of Contents and Details"
+url = "examples/toc-and-details"
+
+[[entries.entries]]
+title = "Markdown Syntax"
+url = "examples/markdown-syntax"
+
+[[entries.entries]]
+title = "Code Syntax Highlighting"
+url = "examples/code-syntax-highlighting"
+
+[[entries]]
 title = "Posts"
 
 [entries.post_list]

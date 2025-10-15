@@ -3,6 +3,7 @@ extended = true
 min = "0.41.0"
 
 [params.themeConfig]
+appearance = "auto"
 backHomeText = "/home"
 dateFormat = "2006-01-02"
 listGroupByDate = true

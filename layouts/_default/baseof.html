@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="{{ $.Site.LanguageCode }}">
 	{{- partial "head.html" . -}}
-	<body>
-		<main aria-label="Content">
-			<div>
+	<body a="{{ $.Site.Params.themeConfig.appearance | default " auto" }}">
+		<main class="page-content" aria-label="Content">
+			<div class="w">
 				{{- partial "header.html" . -}}
 				{{- block "main" . }}{{- end }}
 			</div>

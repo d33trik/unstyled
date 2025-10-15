@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<div class="post-meta">
+		{{ partial "back_link.html" . }}
+		{{ if not .Date.IsZero }}
+			<p>
+				<time datetime="{{ .Date }}">
+					{{ .Date | time.Format site.Params.themeConfig.dateFormat }}
+				</time>
+			</p>
+		{{ end }}
+	</div>
+	<article>
+		<h1>{{ .Title }}</h1>
+		{{ if .Params.toc }}
+			<aside>
+				{{ .TableOfContents }}
+			</aside>
+		{{ end }}
+		{{ .Content }}
+	</article>
+{{ end }}

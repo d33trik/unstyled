@@ -2,6 +2,7 @@
 title: "Crown of Thorns, Blade of Stars"
 date: 2024-09-10T00:00:00+00:00
 draft: false
+tags: ["fantasy", "magic", "adventure"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada lacus non

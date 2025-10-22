@@ -2,6 +2,7 @@
 title: "The Last Ember of the Crystal Forge"
 date: 2024-11-11T00:00:00+00:00
 draft: false
+tags: ["fantasy", "magic", "adventure"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada lacus non

@@ -11,6 +11,13 @@
 	</div>
 	<article>
 		<h1>{{ .Title }}</h1>
+		{{ with .Params.tags }}
+			<p>
+				{{ range . }}
+					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+				{{ end }}
+			</p>
+		{{ end }}
 		{{ if .Params.toc }}
 			<aside {{ if .Params.tocBorder }}class="toc"{{ end }}>
 				{{ .TableOfContents }}

@@ -2,6 +2,7 @@
 title: "Whispers Beneath the Moonlit Forest"
 date: 2025-02-15T00:00:00+00:00
 draft: false
+tags: ["fantasy", "magic", "adventure"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada lacus non

@@ -2,6 +2,7 @@
 title: "Echoes from the Shattered Realm"
 date: 2024-10-07T00:00:00+00:00
 draft: false
+tags: ["fantasy", "magic", "adventure"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada lacus non

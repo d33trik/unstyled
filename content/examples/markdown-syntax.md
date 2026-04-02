@@ -116,7 +116,7 @@ func main() {
 
 ## Links
 
-My favorite Hugo them is [unstyled](https://github.com/d33trik/unstyled)
+My favorite Hugo them is [unstyled](https://codeberg.org/d33trik/unstyled)
 
 ## Images
 
